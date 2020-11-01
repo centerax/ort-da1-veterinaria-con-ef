@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinaria2", "Veterinaria2\Veterinaria2.csproj", "{DDF02CDC-6FE7-4C12-82E9-B96A73A2139E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{7078DDEC-82D9-4CF0-9BB3-81F9FC957E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF02CDC-6FE7-4C12-82E9-B96A73A2139E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF02CDC-6FE7-4C12-82E9-B96A73A2139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF02CDC-6FE7-4C12-82E9-B96A73A2139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF02CDC-6FE7-4C12-82E9-B96A73A2139E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7078DDEC-82D9-4CF0-9BB3-81F9FC957E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7078DDEC-82D9-4CF0-9BB3-81F9FC957E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7078DDEC-82D9-4CF0-9BB3-81F9FC957E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7078DDEC-82D9-4CF0-9BB3-81F9FC957E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
