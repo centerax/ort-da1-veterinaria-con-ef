@@ -1,6 +1,6 @@
 # Pasando de guardar en Memoria a SQL Server.
 
-### Pre requisitios
+### Prerequisitios
 - Tener SQL Server instalado [SQL Server](https://www.microsoft.com/en-us/download/details.aspx?id=55994)
 - Recomendado: Tener instalado [Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
