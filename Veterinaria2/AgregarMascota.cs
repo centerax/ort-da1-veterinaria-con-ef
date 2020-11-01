@@ -13,8 +13,8 @@ namespace Veterinaria2
 {
     public partial class AgregarMascota : UserControl
     {
-        private Directorio miDirectorio;
-        public AgregarMascota(Directorio unDirectorio)
+        private DirectorioSqlServer miDirectorio;
+        public AgregarMascota(DirectorioSqlServer unDirectorio)
         {
             InitializeComponent();
             miDirectorio = unDirectorio;
@@ -23,7 +23,7 @@ namespace Veterinaria2
 
         private void CargarComboBoxClientes()
         {
-            cbClientes.DataSource = miDirectorio.listaClientes;
+            cbClientes.DataSource = miDirectorio.ObtenerClientes();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)

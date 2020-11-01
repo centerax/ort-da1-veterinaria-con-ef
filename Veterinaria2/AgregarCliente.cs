@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
+using Dominio.Exceptions;
 
 namespace Veterinaria2
 {
     public partial class AgregarCliente : UserControl
     {
-        private Directorio miDirectorio;
-        public AgregarCliente(Directorio unDirectorio)
+        private DirectorioSqlServer miDirectorio;
+        public AgregarCliente(DirectorioSqlServer unDirectorio)
         {
             InitializeComponent();
             miDirectorio = unDirectorio;
@@ -34,7 +35,7 @@ namespace Veterinaria2
             {
                 TryCrearCliente(nuevoCliente);
             }
-            catch (YaExisteClienteConEsaIdException unaExcepcion)
+            catch (YaExisteClienteConEseNombreException unaExcepcion)
             {
                 MessageBox.Show(unaExcepcion.Message);
             }                  

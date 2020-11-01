@@ -13,11 +13,11 @@ namespace Veterinaria2
 {
     public partial class PantallaPrincipal : Form
     {
-        public Directorio DirectorioPrincipal { get; set; }
+        public DirectorioSqlServer DirectorioPrincipal { get; set; }
         public PantallaPrincipal()
         {
             InitializeComponent();
-            DirectorioPrincipal = new Directorio();
+            DirectorioPrincipal = new DirectorioSqlServer();
             
         }
 
